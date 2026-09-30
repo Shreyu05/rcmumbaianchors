@@ -28,15 +28,23 @@ export type Session = { accountId: string; role: Role; name: string; email: stri
 const ACCOUNTS_KEY = "rcma.accounts.v1";
 const SESSION_KEY = "rcma.session.v1";
 
-/** The board's admin account, created on first run. Change the password after
+/** The board's admin accounts, created on first run. Change the password after
  *  first sign-in by removing the account in the admin panel and re-registering
  *  (see README for the demo-auth caveats). */
-const SEED_ADMIN = {
-  name: "Club Admin",
-  email: "rtr.shreyansoswal@gmail.com",
-  password: "Admin123",
-  role: "admin" as Role,
-};
+const SEED_ADMINS = [
+  {
+    name: "Club Admin",
+    email: "rtr.shreyansoswal@gmail.com",
+    password: "Admin123",
+    role: "admin" as Role,
+  },
+  {
+    name: "Club Admin 2",
+    email: "rtr.yaksheshjadav@gmail.com",
+    password: "Admin123",
+    role: "admin" as Role,
+  },
+];
 
 function readAccounts(): Account[] {
   try {
@@ -77,17 +85,23 @@ const AuthContext = createContext<AuthValue | null>(null);
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [accounts, setAccounts] = useState<Account[]>(() => {
     const existing = readAccounts();
-    if (!existing.some((account) => account.email === SEED_ADMIN.email)) {
-      const admin: Account = {
-        id: uid(),
-        name: SEED_ADMIN.name,
-        email: SEED_ADMIN.email,
-        passHash: hashPassword(SEED_ADMIN.email, SEED_ADMIN.password),
-        role: SEED_ADMIN.role,
-        createdAt: new Date().toISOString(),
-      };
-      writeAccounts([admin, ...existing]);
-      return [admin, ...existing];
+    const adminsToAdd: Account[] = [];
+    for (const seedAdmin of SEED_ADMINS) {
+      if (!existing.some((account) => account.email === seedAdmin.email)) {
+        const admin: Account = {
+          id: uid(),
+          name: seedAdmin.name,
+          email: seedAdmin.email,
+          passHash: hashPassword(seedAdmin.email, seedAdmin.password),
+          role: seedAdmin.role,
+          createdAt: new Date().toISOString(),
+        };
+        adminsToAdd.push(admin);
+      }
+    }
+    if (adminsToAdd.length > 0) {
+      writeAccounts([...adminsToAdd, ...existing]);
+      return [...adminsToAdd, ...existing];
     }
     return existing;
   });
