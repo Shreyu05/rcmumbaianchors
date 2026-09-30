@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" width="720" height="720" role="img" aria-label="Portrait placeholder for Riya Bhatt"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#1B4A6E"/><stop offset="1" stop-color="#0C1F33"/></linearGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#CADFE9" stop-opacity="0.9"/><stop offset="1" stop-color="#F3D3A0" stop-opacity="0.9"/></linearGradient>
+<radialGradient id="halo" cx="0.5" cy="0.38" r="0.6"><stop offset="0" stop-color="#F3D3A0" stop-opacity="0.35"/><stop offset="1" stop-color="#F3D3A0" stop-opacity="0"/></radialGradient>
+<clipPath id="clip"><rect width="720" height="720"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="720" height="720" fill="url(#bg)"/>
+<circle cx="360" cy="244.8" r="374.40000000000003" fill="url(#halo)"/>
+<path d="M -30 750 L -30 527.44 Q 0 527.44 51.43 520.23 Q 102.86 513.02 154.29 521.48 Q 205.71 529.95 257.14 535.14 Q 308.57 540.34 360 557.8 Q 411.43 575.26 462.86 565.69 Q 514.29 556.11 565.71 571.8 Q 617.14 587.48 668.57 589.55 L 750 750 Z" fill="#143A57" opacity="0.65"/>
+<path d="M -30 750 L -30 612.66 Q 0 612.66 51.43 611.8 Q 102.86 610.94 154.29 612.93 Q 205.71 614.92 257.14 621.04 Q 308.57 627.16 360 622 Q 411.43 616.83 462.86 628.46 Q 514.29 640.08 565.71 649.6 Q 617.14 659.11 668.57 656.4 L 750 750 Z" fill="#0A1D30" opacity="0.85"/>
+<path d="M -72 623.38 C 158.4 595.22, 446.4 651.55, 792 612.11" stroke="#CADFE9" stroke-width="3.04" stroke-linecap="round" fill="none" opacity="0.12"/><path d="M -72 644.04 C 158.4 661.02, 446.4 627.07, 792 650.83" stroke="#CADFE9" stroke-width="3.55" stroke-linecap="round" fill="none" opacity="0.31"/><path d="M -72 661.64 C 158.4 671.6, 446.4 651.68, 792 665.63" stroke="#CADFE9" stroke-width="2.66" stroke-linecap="round" fill="none" opacity="0.13"/>
+<g transform="translate(360 331.2) scale(1.1612903225806452)" opacity="0.16" fill="none" stroke="#CADFE9" stroke-width="9" stroke-linecap="round"><path d="M0 -74 a 20 20 0 1 0 0 40 a 20 20 0 1 0 0 -40 M0 -34 L0 66 M-30 -34 L30 -34 M0 66 C 20 66 44 50 56 14 M0 66 C -20 66 -44 50 -56 14 M56 14 l 14 -18 M56 14 l -20 -4 M-56 14 l -14 -18 M-56 14 l 20 -4"/></g>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="#000" opacity="0.16"/>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="none" stroke="url(#ring)" stroke-width="8.64"/>
+<text x="360" y="331.2" text-anchor="middle" dominant-baseline="central" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="158.4" font-weight="600" fill="#F6FAFF" letter-spacing="2">RB</text>
+</g>
+</svg>

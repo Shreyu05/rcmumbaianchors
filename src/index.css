@@ -1,0 +1,655 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   Rotaract Club of Mumbai Anchors — design tokens
+   Change these values to re-skin the entire site.
+   ========================================================================== */
+@theme {
+  --font-sans: "Manrope", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: "Fraunces", ui-serif, Georgia, "Times New Roman", serif;
+  /* Used only for the club motto — Devanagari needs its own family. */
+  --font-devanagari: "Noto Serif Devanagari", "Fraunces", ui-serif, Georgia, serif;
+
+  /* Deep ocean navy — headings, dark sections */
+  --color-navy-50: #f2f7fc;
+  --color-navy-100: #e2eef7;
+  --color-navy-200: #c3daea;
+  --color-navy-300: #96bdd9;
+  --color-navy-400: #5f97c1;
+  --color-navy-500: #3a77a5;
+  --color-navy-600: #2a5d87;
+  --color-navy-700: #224a6c;
+  --color-navy-800: #1b3a55;
+  --color-navy-900: #142a3f;
+  --color-navy-950: #0a1a2e;
+
+  /* River teal — motion, progress, links */
+  --color-river-100: #dff3f8;
+  --color-river-200: #b9e5f0;
+  --color-river-300: #86d3e4;
+  --color-river-400: #4fbcd6;
+  --color-river-500: #2c9fbc;
+  --color-river-600: #1f7f9b;
+  --color-river-700: #1b6479;
+
+  /* Warm gold — accents, calls to action, ornament metal */
+  --color-gold-100: #fdf4e4;
+  --color-gold-200: #f8e6c2;
+  --color-gold-300: #efd3a1;
+  --color-gold-400: #e0b878;
+  --color-gold-500: #c8953f;
+  --color-gold-600: #a2762a;
+  --color-gold-700: #7d581f;
+
+  /* Sunrise light — the club banner's sky, from cream to amber */
+  --color-sun-100: #fefaf1;
+  --color-sun-200: #fbf0d9;
+  --color-sun-300: #f4e0b4;
+  --color-sun-400: #e7c689;
+  --color-sun-500: #d2a45b;
+  --color-sun-600: #ab7f36;
+
+  /* Pine forest — the banner's treeline, a cooler counterweight to the gold */
+  --color-pine-100: #e6f0ea;
+  --color-pine-200: #c6ddd0;
+  --color-pine-300: #97c1ab;
+  --color-pine-400: #629b81;
+  --color-pine-500: #3f7a62;
+  --color-pine-600: #2b5945;
+  --color-pine-700: #1c3d2f;
+
+  /* Neutral surfaces — warm paper rather than clinical white */
+  --color-mist: #fbf7ef;
+  --color-cloud: #f4ecdd;
+  --color-cream: #f8f1e0;
+  --color-parchment: #f3e5c8;
+  --color-snow: #fdfbf6;
+
+  --animate-float-slow: float 12s ease-in-out infinite;
+  --animate-float-slower: float 18s ease-in-out infinite;
+  --animate-flow: flow 9s linear infinite;
+  --animate-flow-slow: flow 16s linear infinite;
+  --animate-drift: drift 26s ease-in-out infinite;
+  --animate-shimmer: shimmer 6s ease-in-out infinite;
+  --animate-pulse-ring: pulse-ring 3.6s ease-out infinite;
+  --animate-marquee: marquee 46s linear infinite;
+  --animate-marquee-slow: marquee 68s linear infinite;
+  --animate-turn: turn 26s linear infinite;
+  --animate-turn-slow: turn 44s linear infinite;
+  --animate-orbit: orbit 30s linear infinite;
+  --animate-orbit-reverse: orbit-reverse 42s linear infinite;
+  --animate-bob: bob 6.5s ease-in-out infinite;
+  --animate-pan: pan 9s linear infinite;
+  --animate-glow: glow 5.5s ease-in-out infinite;
+  --animate-ripple: ripple 0.65s ease-out forwards;
+  --animate-sunrise: sunrise 18s ease-in-out infinite;
+  --animate-rise: rise 11s linear infinite;
+  --animate-fall: fall linear infinite;
+  --animate-sway: sway 3s ease-in-out infinite alternate;
+  --animate-pulse-soft: pulse-soft 2.8s ease-in-out infinite;
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+    50% {
+      transform: translate3d(0, -14px, 0);
+    }
+  }
+  @keyframes flow {
+    0% {
+      stroke-dashoffset: 0;
+    }
+    100% {
+      stroke-dashoffset: -600;
+    }
+  }
+  @keyframes drift {
+    0%,
+    100% {
+      transform: translate3d(-2%, 0, 0) scale(1);
+    }
+    50% {
+      transform: translate3d(3%, 1.5%, 0) scale(1.04);
+    }
+  }
+  @keyframes shimmer {
+    0%,
+    100% {
+      opacity: 0.35;
+    }
+    50% {
+      opacity: 0.75;
+    }
+  }
+  @keyframes pulse-ring {
+    0% {
+      transform: scale(0.85);
+      opacity: 0.55;
+    }
+    100% {
+      transform: scale(1.6);
+      opacity: 0;
+    }
+  }
+  /* Infinite horizontal ribbon: the track holds two identical copies, so
+     travelling exactly -50% loops with no visible seam. */
+  @keyframes marquee {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(-50%, 0, 0);
+    }
+  }
+  @keyframes turn {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes orbit {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+  @keyframes orbit-reverse {
+    from {
+      transform: rotateY(360deg);
+    }
+    to {
+      transform: rotateY(0deg);
+    }
+  }
+  @keyframes bob {
+    0%,
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+    50% {
+      transform: translate3d(0, -10px, 0);
+    }
+  }
+  @keyframes pan {
+    from {
+      background-position: 0% 50%;
+    }
+    to {
+      background-position: 200% 50%;
+    }
+  }
+  @keyframes glow {
+    0%,
+    100% {
+      opacity: 0.35;
+      transform: scale(0.96);
+    }
+    50% {
+      opacity: 0.85;
+      transform: scale(1.03);
+    }
+  }
+  @keyframes ripple {
+    from {
+      transform: scale(0);
+      opacity: 0.5;
+    }
+    to {
+      transform: scale(1);
+      opacity: 0;
+    }
+  }
+  /* The dawn light behind the peaks: breathes, never travels. */
+  @keyframes sunrise {
+    0%,
+    100% {
+      opacity: 0.7;
+      transform: scale(1) translate3d(0, 0, 0);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.07) translate3d(0, -1.4%, 0);
+    }
+  }
+  /* Golden motes lifting off the water. */
+  @keyframes rise {
+    0% {
+      transform: translate3d(0, 14px, 0) scale(0.8);
+      opacity: 0;
+    }
+    22% {
+      opacity: 1;
+    }
+    100% {
+      transform: translate3d(16px, -52px, 0) scale(1.15);
+      opacity: 0;
+    }
+  }
+  /* Snowfall: the flake's outer wrapper falls, the flake itself sways. */
+  @keyframes fall {
+    from {
+      transform: translate3d(0, -6vh, 0);
+    }
+    to {
+      transform: translate3d(-4vw, 112vh, 0);
+    }
+  }
+  @keyframes sway {
+    from {
+      transform: translate3d(-7px, 0, 0) rotate(-24deg);
+    }
+    to {
+      transform: translate3d(7px, 0, 0) rotate(24deg);
+    }
+  }
+  @keyframes pulse-soft {
+    0%,
+    100% {
+      opacity: 0.45;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+}
+
+/* ==========================================================================
+   Button choreography — corner brackets and the label letter-lift
+   ========================================================================== */
+
+/* Four corner brackets that fold in from the button's diagonals on hover. */
+.btn-corner {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-color: currentColor;
+  opacity: 0;
+  transition:
+    transform 0.45s cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.btn-corner-tl {
+  top: 3px;
+  left: 3px;
+  border-top: 1.5px solid;
+  border-left: 1.5px solid;
+  transform: translate(6px, 6px);
+}
+
+.btn-corner-tr {
+  top: 3px;
+  right: 3px;
+  border-top: 1.5px solid;
+  border-right: 1.5px solid;
+  transform: translate(-6px, 6px);
+}
+
+.btn-corner-bl {
+  bottom: 3px;
+  left: 3px;
+  border-bottom: 1.5px solid;
+  border-left: 1.5px solid;
+  transform: translate(6px, -6px);
+}
+
+.btn-corner-br {
+  bottom: 3px;
+  right: 3px;
+  border-bottom: 1.5px solid;
+  border-right: 1.5px solid;
+  transform: translate(-6px, -6px);
+}
+
+.group:hover .btn-corner,
+.group:focus-visible .btn-corner {
+  opacity: 0.85;
+  transform: translate(0, 0);
+}
+
+/* The label rises through a mask, letter by letter. Each letter is wrapped in
+   an overflow-hidden inline-block (built in MagneticButton); the inner spans
+   start translated down and rise into place. */
+.btn-letter-inner {
+  display: inline-block;
+  transform: translate3d(0, 0, 0);
+  transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+  transition-delay: calc(var(--letter-index, 0) * 14ms);
+}
+
+.btn-label:hover .btn-letter-inner,
+.btn-label:focus-visible .btn-letter-inner {
+  transform: translate3d(0, -115%, 0);
+}
+
+.btn-letter-echo {
+  display: inline-block;
+  transform: translate3d(0, 115%, 0);
+  transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+  transition-delay: calc(var(--letter-index, 0) * 14ms);
+}
+
+.btn-label:hover .btn-letter-echo,
+.btn-label:focus-visible .btn-letter-echo {
+  transform: translate3d(0, 0, 0);
+}
+
+/* Registered so the gradient ring can animate its conic angle smoothly.
+   Browsers without @property simply render the ring as a static gradient. */
+@property --ring-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* keeps anchor targets clear of the sticky header */
+    scroll-padding-top: 5.5rem;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--color-mist);
+    color: var(--color-navy-900);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    font-optical-sizing: auto;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background: var(--color-river-300);
+    color: var(--color-navy-950);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-gold-400);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  section[id] {
+    scroll-margin-top: 5.5rem;
+  }
+}
+
+/* ==========================================================================
+   Utilities
+   ========================================================================== */
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Eyebrow / overline treatment */
+@utility eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+/* 3D helpers — kept explicit so the intent is readable in markup */
+@utility scene {
+  perspective: 1200px;
+  perspective-origin: 50% 45%;
+}
+
+@utility scene-far {
+  perspective: 2000px;
+  perspective-origin: 50% 50%;
+}
+
+@utility depth-3d {
+  transform-style: preserve-3d;
+}
+
+@utility flat-back {
+  backface-visibility: hidden;
+}
+
+/* ==========================================================================
+   Decorative effect classes
+   These sit outside Tailwind's layers so they always win over utility paint.
+   ========================================================================== */
+
+/*
+ * Rotating gradient hairline that hugs a rounded-full element.
+ * The mask pair keeps only the 1px padding band, so the parent's own
+ * background shows through the middle and the ring reads as a border.
+ */
+.ring-gradient {
+  padding: 1px;
+  background: conic-gradient(
+    from var(--ring-angle),
+    transparent 0deg,
+    var(--color-river-400) 70deg,
+    var(--color-gold-300) 150deg,
+    transparent 230deg,
+    var(--color-river-300) 320deg,
+    transparent 360deg
+  );
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  mask-composite: exclude;
+  animation: ring-turn 6s linear infinite;
+}
+
+.ring-gradient-soft {
+  background: conic-gradient(
+    from var(--ring-angle),
+    transparent 0deg,
+    var(--color-river-300) 90deg,
+    transparent 180deg,
+    var(--color-gold-200) 300deg,
+    transparent 360deg
+  );
+}
+
+@keyframes ring-turn {
+  from {
+    --ring-angle: 0deg;
+  }
+  to {
+    --ring-angle: 360deg;
+  }
+}
+
+/* Single light sweep, driven by the parent `.group` hover. */
+.sheen {
+  position: absolute;
+  top: -20%;
+  left: -35%;
+  height: 140%;
+  width: 34%;
+  transform: translate3d(-140%, 0, 0) rotate(14deg);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    color-mix(in oklab, white 62%, transparent),
+    transparent
+  );
+  transition: transform 900ms cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+}
+
+.group:hover .sheen,
+.group:focus-visible .sheen {
+  transform: translate3d(360%, 0, 0) rotate(14deg);
+}
+
+/* Hover-tracked specular highlight used by the 3D tilt cards. */
+.glare {
+  background: radial-gradient(
+    42% 42% at var(--glare-x, 50%) var(--glare-y, 50%),
+    color-mix(in oklab, white 34%, transparent),
+    transparent 70%
+  );
+}
+
+/* Fine blueprint grid, used behind imagery for depth. */
+.grid-veil {
+  background-image:
+    linear-gradient(to right, color-mix(in oklab, currentColor 22%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in oklab, currentColor 22%, transparent) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* The edge that catches light on a tilted card. */
+.edge-light {
+  box-shadow:
+    inset 0 1px 0 color-mix(in oklab, white 45%, transparent),
+    inset 0 0 0 1px color-mix(in oklab, white 12%, transparent);
+}
+
+/* ==========================================================================
+   The club banner, rebuilt as reusable surface treatments
+   ========================================================================== */
+
+/*
+ * The banner's frame: a gold hairline, a gap, then a finer line inside.
+ * The inner rule is a pseudo-element because a second border would simply
+ * stack into a solid band.
+ */
+.gold-frame {
+  position: relative;
+  border: 1px solid color-mix(in oklab, var(--color-gold-400) 60%, transparent);
+}
+
+.gold-frame::after {
+  content: "";
+  position: absolute;
+  inset: 6px;
+  border: 1px solid color-mix(in oklab, var(--color-gold-400) 26%, transparent);
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+/*
+ * The cream strip that carries the club's name on the banner. It stays warm and
+ * bright enough to hold navy type on a pale section as well as on a dark one.
+ */
+.parchment-panel {
+  position: relative;
+  color: var(--color-navy-900);
+  background: linear-gradient(
+    100deg,
+    color-mix(in oklab, var(--color-parchment) 82%, transparent) 0%,
+    color-mix(in oklab, var(--color-cream) 94%, transparent) 50%,
+    color-mix(in oklab, var(--color-parchment) 82%, transparent) 100%
+  );
+  border-top: 1px solid color-mix(in oklab, var(--color-gold-500) 55%, transparent);
+  border-bottom: 1px solid color-mix(in oklab, var(--color-gold-500) 55%, transparent);
+  box-shadow: 0 30px 60px -45px color-mix(in oklab, var(--color-navy-950) 70%, transparent);
+}
+
+/* Sunrise light washing down a section — breathes via the `sunrise` keyframe. */
+.sunrise-wash {
+  background-image:
+    radial-gradient(
+      120% 85% at 50% 112%,
+      color-mix(in oklab, var(--color-sun-300) 55%, transparent),
+      transparent 62%
+    ),
+    radial-gradient(
+      80% 60% at 84% 4%,
+      color-mix(in oklab, var(--color-sun-200) 45%, transparent),
+      transparent 66%
+    );
+}
+
+/* Molten-gold type for the Devanagari wordmark. Never split into child spans:
+   a clipped background only clips against its own element's glyphs. */
+.gold-text {
+  background-image: linear-gradient(
+    100deg,
+    var(--color-sun-200) 0%,
+    var(--color-gold-300) 32%,
+    var(--color-sun-500) 58%,
+    var(--color-gold-200) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/*
+ * GoldRule variants — flat line and solid fills for dividers on any surface.
+ * `tone` decides the metal: light = the banner's engraved gold on pale paper,
+ * dark = the brighter polished gold that reads on navy.
+ */
+.gold-rule-line-light {
+  background: linear-gradient(90deg, transparent, color-mix(in oklab, var(--color-gold-500) 62%, transparent));
+}
+
+.gold-rule-line-reverse-light {
+  background: linear-gradient(270deg, transparent, color-mix(in oklab, var(--color-gold-500) 62%, transparent));
+}
+
+.gold-rule-line-dark {
+  background: linear-gradient(90deg, transparent, color-mix(in oklab, var(--color-gold-300) 72%, transparent));
+}
+
+.gold-rule-line-reverse-dark {
+  background: linear-gradient(270deg, transparent, color-mix(in oklab, var(--color-gold-300) 72%, transparent));
+}
+
+.gold-rule-solid-light {
+  background: color-mix(in oklab, var(--color-gold-500) 72%, transparent);
+}
+
+.gold-rule-solid-dark {
+  background: color-mix(in oklab, var(--color-gold-300) 88%, transparent);
+}
+
+/* ==========================================================================
+   Motion preferences — switch everything off for users who ask for calm
+   ========================================================================== */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

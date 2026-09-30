@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" width="720" height="720" role="img" aria-label="Portrait placeholder for Arjun Patil"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#183C55"/><stop offset="1" stop-color="#0B1B2C"/></linearGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B9D8E2" stop-opacity="0.9"/><stop offset="1" stop-color="#EDC085" stop-opacity="0.9"/></linearGradient>
+<radialGradient id="halo" cx="0.5" cy="0.38" r="0.6"><stop offset="0" stop-color="#EDC085" stop-opacity="0.35"/><stop offset="1" stop-color="#EDC085" stop-opacity="0"/></radialGradient>
+<clipPath id="clip"><rect width="720" height="720"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="720" height="720" fill="url(#bg)"/>
+<circle cx="360" cy="244.8" r="374.40000000000003" fill="url(#halo)"/>
+<path d="M -30 750 L -30 537.77 Q 0 537.77 51.43 527.15 Q 102.86 516.53 154.29 525.4 Q 205.71 534.27 257.14 545.08 Q 308.57 555.88 360 566.05 Q 411.43 576.23 462.86 572.93 Q 514.29 569.64 565.71 574.88 Q 617.14 580.11 668.57 585.82 L 750 750 Z" fill="#123449" opacity="0.65"/>
+<path d="M -30 750 L -30 613.24 Q 0 613.24 51.43 611.46 Q 102.86 609.67 154.29 612.08 Q 205.71 614.49 257.14 628.05 Q 308.57 641.6 360 636.56 Q 411.43 631.51 462.86 639.27 Q 514.29 647.03 565.71 652.86 Q 617.14 658.69 668.57 662.45 L 750 750 Z" fill="#091B2A" opacity="0.85"/>
+<path d="M -72 623.37 C 158.4 611.42, 446.4 635.32, 792 618.59" stroke="#B9D8E2" stroke-width="2.66" stroke-linecap="round" fill="none" opacity="0.34"/><path d="M -72 649.13 C 158.4 677.96, 446.4 620.3, 792 660.66" stroke="#B9D8E2" stroke-width="3.96" stroke-linecap="round" fill="none" opacity="0.15"/><path d="M -72 667.02 C 158.4 670.75, 446.4 663.29, 792 668.51" stroke="#B9D8E2" stroke-width="4.15" stroke-linecap="round" fill="none" opacity="0.38"/>
+<g transform="translate(360 331.2) scale(1.1612903225806452)" opacity="0.16" fill="none" stroke="#B9D8E2" stroke-width="9" stroke-linecap="round"><path d="M0 -74 a 20 20 0 1 0 0 40 a 20 20 0 1 0 0 -40 M0 -34 L0 66 M-30 -34 L30 -34 M0 66 C 20 66 44 50 56 14 M0 66 C -20 66 -44 50 -56 14 M56 14 l 14 -18 M56 14 l -20 -4 M-56 14 l -14 -18 M-56 14 l 20 -4"/></g>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="#000" opacity="0.16"/>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="none" stroke="url(#ring)" stroke-width="8.64"/>
+<text x="360" y="331.2" text-anchor="middle" dominant-baseline="central" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="158.4" font-weight="600" fill="#F6FAFF" letter-spacing="2">AP</text>
+</g>
+</svg>

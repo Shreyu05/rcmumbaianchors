@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" width="720" height="720" role="img" aria-label="Portrait placeholder for Nikita Shetty"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#1E3763"/><stop offset="1" stop-color="#0B1730"/></linearGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C6DCEC" stop-opacity="0.9"/><stop offset="1" stop-color="#F0CD9A" stop-opacity="0.9"/></linearGradient>
+<radialGradient id="halo" cx="0.5" cy="0.38" r="0.6"><stop offset="0" stop-color="#F0CD9A" stop-opacity="0.35"/><stop offset="1" stop-color="#F0CD9A" stop-opacity="0"/></radialGradient>
+<clipPath id="clip"><rect width="720" height="720"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="720" height="720" fill="url(#bg)"/>
+<circle cx="360" cy="244.8" r="374.40000000000003" fill="url(#halo)"/>
+<path d="M -30 750 L -30 526.59 Q 0 526.59 51.43 521.31 Q 102.86 516.02 154.29 535.49 Q 205.71 554.96 257.14 559.67 Q 308.57 564.37 360 548.86 Q 411.43 533.35 462.86 542.33 Q 514.29 551.31 565.71 571.21 Q 617.14 591.11 668.57 593.27 L 750 750 Z" fill="#182A50" opacity="0.65"/>
+<path d="M -30 750 L -30 612.26 Q 0 612.26 51.43 606.61 Q 102.86 600.96 154.29 618.63 Q 205.71 636.29 257.14 639.05 Q 308.57 641.81 360 643.61 Q 411.43 645.41 462.86 645.96 Q 514.29 646.51 565.71 651.54 Q 617.14 656.57 668.57 661.44 L 750 750 Z" fill="#0A1430" opacity="0.85"/>
+<path d="M -72 616.86 C 158.4 641.28, 446.4 592.43, 792 626.63" stroke="#C6DCEC" stroke-width="1.52" stroke-linecap="round" fill="none" opacity="0.19"/><path d="M -72 639.5 C 158.4 684.63, 446.4 594.37, 792 657.55" stroke="#C6DCEC" stroke-width="3.82" stroke-linecap="round" fill="none" opacity="0.38"/><path d="M -72 661.49 C 158.4 605.24, 446.4 717.73, 792 638.99" stroke="#C6DCEC" stroke-width="3.42" stroke-linecap="round" fill="none" opacity="0.35"/>
+<g transform="translate(360 331.2) scale(1.1612903225806452)" opacity="0.16" fill="none" stroke="#C6DCEC" stroke-width="9" stroke-linecap="round"><path d="M0 -74 a 20 20 0 1 0 0 40 a 20 20 0 1 0 0 -40 M0 -34 L0 66 M-30 -34 L30 -34 M0 66 C 20 66 44 50 56 14 M0 66 C -20 66 -44 50 -56 14 M56 14 l 14 -18 M56 14 l -20 -4 M-56 14 l -14 -18 M-56 14 l 20 -4"/></g>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="#000" opacity="0.16"/>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="none" stroke="url(#ring)" stroke-width="8.64"/>
+<text x="360" y="331.2" text-anchor="middle" dominant-baseline="central" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="158.4" font-weight="600" fill="#F6FAFF" letter-spacing="2">NS</text>
+</g>
+</svg>

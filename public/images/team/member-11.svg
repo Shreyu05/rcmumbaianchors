@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" width="720" height="720" role="img" aria-label="Portrait placeholder for Neel Kadam"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#123A5C"/><stop offset="1" stop-color="#0A1A2E"/></linearGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#BFDCE8" stop-opacity="0.9"/><stop offset="1" stop-color="#EFC98F" stop-opacity="0.9"/></linearGradient>
+<radialGradient id="halo" cx="0.5" cy="0.38" r="0.6"><stop offset="0" stop-color="#EFC98F" stop-opacity="0.35"/><stop offset="1" stop-color="#EFC98F" stop-opacity="0"/></radialGradient>
+<clipPath id="clip"><rect width="720" height="720"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="720" height="720" fill="url(#bg)"/>
+<circle cx="360" cy="244.8" r="374.40000000000003" fill="url(#halo)"/>
+<path d="M -30 750 L -30 535.35 Q 0 535.35 51.43 524.17 Q 102.86 512.98 154.29 520.67 Q 205.71 528.36 257.14 537.69 Q 308.57 547.02 360 541.56 Q 411.43 536.09 462.86 536.55 Q 514.29 537 565.71 554.69 Q 617.14 572.38 668.57 581.66 L 750 750 Z" fill="#123049" opacity="0.65"/>
+<path d="M -30 750 L -30 612.84 Q 0 612.84 51.43 607.62 Q 102.86 602.4 154.29 608.28 Q 205.71 614.15 257.14 627.83 Q 308.57 641.52 360 637.52 Q 411.43 633.51 462.86 631.42 Q 514.29 629.32 565.71 644.31 Q 617.14 659.29 668.57 660.29 L 750 750 Z" fill="#0A1E33" opacity="0.85"/>
+<path d="M -72 619.29 C 158.4 628.46, 446.4 610.12, 792 622.96" stroke="#BFDCE8" stroke-width="3.28" stroke-linecap="round" fill="none" opacity="0.22"/><path d="M -72 646.75 C 158.4 634.65, 446.4 658.85, 792 641.91" stroke="#BFDCE8" stroke-width="1.91" stroke-linecap="round" fill="none" opacity="0.26"/><path d="M -72 671.22 C 158.4 638.52, 446.4 703.92, 792 658.14" stroke="#BFDCE8" stroke-width="1.84" stroke-linecap="round" fill="none" opacity="0.15"/>
+<g transform="translate(360 331.2) scale(1.1612903225806452)" opacity="0.16" fill="none" stroke="#BFDCE8" stroke-width="9" stroke-linecap="round"><path d="M0 -74 a 20 20 0 1 0 0 40 a 20 20 0 1 0 0 -40 M0 -34 L0 66 M-30 -34 L30 -34 M0 66 C 20 66 44 50 56 14 M0 66 C -20 66 -44 50 -56 14 M56 14 l 14 -18 M56 14 l -20 -4 M-56 14 l -14 -18 M-56 14 l 20 -4"/></g>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="#000" opacity="0.16"/>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="none" stroke="url(#ring)" stroke-width="8.64"/>
+<text x="360" y="331.2" text-anchor="middle" dominant-baseline="central" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="158.4" font-weight="600" fill="#F6FAFF" letter-spacing="2">NK</text>
+</g>
+</svg>

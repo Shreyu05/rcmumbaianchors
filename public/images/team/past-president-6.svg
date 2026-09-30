@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" width="720" height="720" role="img" aria-label="Portrait placeholder for President Six"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#1E3763"/><stop offset="1" stop-color="#0B1730"/></linearGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C6DCEC" stop-opacity="0.9"/><stop offset="1" stop-color="#F0CD9A" stop-opacity="0.9"/></linearGradient>
+<radialGradient id="halo" cx="0.5" cy="0.38" r="0.6"><stop offset="0" stop-color="#F0CD9A" stop-opacity="0.35"/><stop offset="1" stop-color="#F0CD9A" stop-opacity="0"/></radialGradient>
+<clipPath id="clip"><rect width="720" height="720"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="720" height="720" fill="url(#bg)"/>
+<circle cx="360" cy="244.8" r="374.40000000000003" fill="url(#halo)"/>
+<path d="M -30 750 L -30 525.73 Q 0 525.73 51.43 519.58 Q 102.86 513.42 154.29 522.6 Q 205.71 531.78 257.14 537.16 Q 308.57 542.54 360 558.96 Q 411.43 575.39 462.86 572.21 Q 514.29 569.03 565.71 574.03 Q 617.14 579.03 668.57 587.23 L 750 750 Z" fill="#182A50" opacity="0.65"/>
+<path d="M -30 750 L -30 613.45 Q 0 613.45 51.43 610.7 Q 102.86 607.94 154.29 610.96 Q 205.71 613.98 257.14 621.44 Q 308.57 628.89 360 636.07 Q 411.43 643.25 462.86 641.58 Q 514.29 639.91 565.71 648.92 Q 617.14 657.94 668.57 662.1 L 750 750 Z" fill="#0A1430" opacity="0.85"/>
+<path d="M -72 619.93 C 158.4 659.41, 446.4 580.45, 792 635.72" stroke="#C6DCEC" stroke-width="2.24" stroke-linecap="round" fill="none" opacity="0.2"/><path d="M -72 646.32 C 158.4 657.63, 446.4 635.02, 792 650.84" stroke="#C6DCEC" stroke-width="3.54" stroke-linecap="round" fill="none" opacity="0.13"/><path d="M -72 672.74 C 158.4 699.17, 446.4 646.31, 792 683.31" stroke="#C6DCEC" stroke-width="3.56" stroke-linecap="round" fill="none" opacity="0.15"/>
+<g transform="translate(360 331.2) scale(1.1612903225806452)" opacity="0.16" fill="none" stroke="#C6DCEC" stroke-width="9" stroke-linecap="round"><path d="M0 -74 a 20 20 0 1 0 0 40 a 20 20 0 1 0 0 -40 M0 -34 L0 66 M-30 -34 L30 -34 M0 66 C 20 66 44 50 56 14 M0 66 C -20 66 -44 50 -56 14 M56 14 l 14 -18 M56 14 l -20 -4 M-56 14 l -14 -18 M-56 14 l 20 -4"/></g>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="#000" opacity="0.16"/>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="none" stroke="url(#ring)" stroke-width="8.64"/>
+<text x="360" y="331.2" text-anchor="middle" dominant-baseline="central" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="158.4" font-weight="600" fill="#F6FAFF" letter-spacing="2">PS</text>
+</g>
+</svg>

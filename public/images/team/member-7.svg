@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" width="720" height="720" role="img" aria-label="Portrait placeholder for Vivaan Shah"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#1B4A6E"/><stop offset="1" stop-color="#0C1F33"/></linearGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#CADFE9" stop-opacity="0.9"/><stop offset="1" stop-color="#F3D3A0" stop-opacity="0.9"/></linearGradient>
+<radialGradient id="halo" cx="0.5" cy="0.38" r="0.6"><stop offset="0" stop-color="#F3D3A0" stop-opacity="0.35"/><stop offset="1" stop-color="#F3D3A0" stop-opacity="0"/></radialGradient>
+<clipPath id="clip"><rect width="720" height="720"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="720" height="720" fill="url(#bg)"/>
+<circle cx="360" cy="244.8" r="374.40000000000003" fill="url(#halo)"/>
+<path d="M -30 750 L -30 532.89 Q 0 532.89 51.43 522.18 Q 102.86 511.47 154.29 530.88 Q 205.71 550.3 257.14 550.33 Q 308.57 550.36 360 553.93 Q 411.43 557.51 462.86 562.37 Q 514.29 567.23 565.71 574.7 Q 617.14 582.17 668.57 588.46 L 750 750 Z" fill="#143A57" opacity="0.65"/>
+<path d="M -30 750 L -30 612 Q 0 612 51.43 610.43 Q 102.86 608.86 154.29 611.44 Q 205.71 614.02 257.14 618.77 Q 308.57 623.51 360 635.88 Q 411.43 648.25 462.86 647.2 Q 514.29 646.15 565.71 654.41 Q 617.14 662.67 668.57 662.99 L 750 750 Z" fill="#0A1D30" opacity="0.85"/>
+<path d="M -72 614.02 C 158.4 657.07, 446.4 570.97, 792 631.24" stroke="#CADFE9" stroke-width="2.8" stroke-linecap="round" fill="none" opacity="0.36"/><path d="M -72 642.13 C 158.4 643.49, 446.4 640.77, 792 642.67" stroke="#CADFE9" stroke-width="1.26" stroke-linecap="round" fill="none" opacity="0.25"/><path d="M -72 666.89 C 158.4 668.72, 446.4 665.06, 792 667.62" stroke="#CADFE9" stroke-width="1.24" stroke-linecap="round" fill="none" opacity="0.38"/>
+<g transform="translate(360 331.2) scale(1.1612903225806452)" opacity="0.16" fill="none" stroke="#CADFE9" stroke-width="9" stroke-linecap="round"><path d="M0 -74 a 20 20 0 1 0 0 40 a 20 20 0 1 0 0 -40 M0 -34 L0 66 M-30 -34 L30 -34 M0 66 C 20 66 44 50 56 14 M0 66 C -20 66 -44 50 -56 14 M56 14 l 14 -18 M56 14 l -20 -4 M-56 14 l -14 -18 M-56 14 l 20 -4"/></g>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="#000" opacity="0.16"/>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="none" stroke="url(#ring)" stroke-width="8.64"/>
+<text x="360" y="331.2" text-anchor="middle" dominant-baseline="central" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="158.4" font-weight="600" fill="#F6FAFF" letter-spacing="2">VS</text>
+</g>
+</svg>

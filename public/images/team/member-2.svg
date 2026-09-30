@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" width="720" height="720" role="img" aria-label="Portrait placeholder for Ananya Iyer"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#1B4A6E"/><stop offset="1" stop-color="#0C1F33"/></linearGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#CADFE9" stop-opacity="0.9"/><stop offset="1" stop-color="#F3D3A0" stop-opacity="0.9"/></linearGradient>
+<radialGradient id="halo" cx="0.5" cy="0.38" r="0.6"><stop offset="0" stop-color="#F3D3A0" stop-opacity="0.35"/><stop offset="1" stop-color="#F3D3A0" stop-opacity="0"/></radialGradient>
+<clipPath id="clip"><rect width="720" height="720"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="720" height="720" fill="url(#bg)"/>
+<circle cx="360" cy="244.8" r="374.40000000000003" fill="url(#halo)"/>
+<path d="M -30 750 L -30 533.18 Q 0 533.18 51.43 528 Q 102.86 522.81 154.29 525.92 Q 205.71 529.03 257.14 543.64 Q 308.57 558.25 360 546.44 Q 411.43 534.64 462.86 552.85 Q 514.29 571.06 565.71 577.24 Q 617.14 583.42 668.57 588.63 L 750 750 Z" fill="#143A57" opacity="0.65"/>
+<path d="M -30 750 L -30 612.51 Q 0 612.51 51.43 611.93 Q 102.86 611.35 154.29 617.89 Q 205.71 624.42 257.14 631.69 Q 308.57 638.96 360 636.95 Q 411.43 634.93 462.86 635.72 Q 514.29 636.5 565.71 649.61 Q 617.14 662.72 668.57 662.57 L 750 750 Z" fill="#0A1D30" opacity="0.85"/>
+<path d="M -72 623.81 C 158.4 615.99, 446.4 631.63, 792 620.68" stroke="#CADFE9" stroke-width="2.47" stroke-linecap="round" fill="none" opacity="0.35"/><path d="M -72 637.41 C 158.4 655.31, 446.4 619.52, 792 644.57" stroke="#CADFE9" stroke-width="3.02" stroke-linecap="round" fill="none" opacity="0.13"/><path d="M -72 664.87 C 158.4 665.61, 446.4 664.12, 792 665.16" stroke="#CADFE9" stroke-width="1.43" stroke-linecap="round" fill="none" opacity="0.39"/>
+<g transform="translate(360 331.2) scale(1.1612903225806452)" opacity="0.16" fill="none" stroke="#CADFE9" stroke-width="9" stroke-linecap="round"><path d="M0 -74 a 20 20 0 1 0 0 40 a 20 20 0 1 0 0 -40 M0 -34 L0 66 M-30 -34 L30 -34 M0 66 C 20 66 44 50 56 14 M0 66 C -20 66 -44 50 -56 14 M56 14 l 14 -18 M56 14 l -20 -4 M-56 14 l -14 -18 M-56 14 l 20 -4"/></g>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="#000" opacity="0.16"/>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="none" stroke="url(#ring)" stroke-width="8.64"/>
+<text x="360" y="331.2" text-anchor="middle" dominant-baseline="central" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="158.4" font-weight="600" fill="#F6FAFF" letter-spacing="2">AI</text>
+</g>
+</svg>

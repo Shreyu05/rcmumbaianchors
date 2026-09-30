@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" width="720" height="720" role="img" aria-label="Portrait placeholder for Kabir Nair"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#2E4059"/><stop offset="1" stop-color="#101A2A"/></linearGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#D3E0E4" stop-opacity="0.9"/><stop offset="1" stop-color="#F6D2A2" stop-opacity="0.9"/></linearGradient>
+<radialGradient id="halo" cx="0.5" cy="0.38" r="0.6"><stop offset="0" stop-color="#F6D2A2" stop-opacity="0.35"/><stop offset="1" stop-color="#F6D2A2" stop-opacity="0"/></radialGradient>
+<clipPath id="clip"><rect width="720" height="720"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="720" height="720" fill="url(#bg)"/>
+<circle cx="360" cy="244.8" r="374.40000000000003" fill="url(#halo)"/>
+<path d="M -30 750 L -30 551.72 Q 0 551.72 51.43 534.46 Q 102.86 517.2 154.29 534.77 Q 205.71 552.34 257.14 567.64 Q 308.57 582.93 360 579.85 Q 411.43 576.77 462.86 573.87 Q 514.29 570.97 565.71 574.69 Q 617.14 578.4 668.57 575.43 L 750 750 Z" fill="#1E2A3D" opacity="0.65"/>
+<path d="M -30 750 L -30 612.04 Q 0 612.04 51.43 606.74 Q 102.86 601.44 154.29 617.1 Q 205.71 632.76 257.14 635.9 Q 308.57 639.03 360 644.06 Q 411.43 649.08 462.86 648 Q 514.29 646.92 565.71 648.81 Q 617.14 650.71 668.57 658.51 L 750 750 Z" fill="#0C1421" opacity="0.85"/>
+<path d="M -72 618.28 C 158.4 561.69, 446.4 674.86, 792 595.64" stroke="#D3E0E4" stroke-width="1.03" stroke-linecap="round" fill="none" opacity="0.28"/><path d="M -72 641.35 C 158.4 642.74, 446.4 639.97, 792 641.91" stroke="#D3E0E4" stroke-width="3.94" stroke-linecap="round" fill="none" opacity="0.28"/><path d="M -72 672.97 C 158.4 693.67, 446.4 652.28, 792 681.25" stroke="#D3E0E4" stroke-width="3.89" stroke-linecap="round" fill="none" opacity="0.32"/>
+<g transform="translate(360 331.2) scale(1.1612903225806452)" opacity="0.16" fill="none" stroke="#D3E0E4" stroke-width="9" stroke-linecap="round"><path d="M0 -74 a 20 20 0 1 0 0 40 a 20 20 0 1 0 0 -40 M0 -34 L0 66 M-30 -34 L30 -34 M0 66 C 20 66 44 50 56 14 M0 66 C -20 66 -44 50 -56 14 M56 14 l 14 -18 M56 14 l -20 -4 M-56 14 l -14 -18 M-56 14 l 20 -4"/></g>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="#000" opacity="0.16"/>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="none" stroke="url(#ring)" stroke-width="8.64"/>
+<text x="360" y="331.2" text-anchor="middle" dominant-baseline="central" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="158.4" font-weight="600" fill="#F6FAFF" letter-spacing="2">KN</text>
+</g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" width="720" height="720" role="img" aria-label="Portrait placeholder for Sara Fernandes"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#183C55"/><stop offset="1" stop-color="#0B1B2C"/></linearGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B9D8E2" stop-opacity="0.9"/><stop offset="1" stop-color="#EDC085" stop-opacity="0.9"/></linearGradient>
+<radialGradient id="halo" cx="0.5" cy="0.38" r="0.6"><stop offset="0" stop-color="#EDC085" stop-opacity="0.35"/><stop offset="1" stop-color="#EDC085" stop-opacity="0"/></radialGradient>
+<clipPath id="clip"><rect width="720" height="720"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="720" height="720" fill="url(#bg)"/>
+<circle cx="360" cy="244.8" r="374.40000000000003" fill="url(#halo)"/>
+<path d="M -30 750 L -30 551.46 Q 0 551.46 51.43 534.63 Q 102.86 517.8 154.29 523.93 Q 205.71 530.06 257.14 539.66 Q 308.57 549.25 360 555.29 Q 411.43 561.33 462.86 566.2 Q 514.29 571.07 565.71 577.18 Q 617.14 583.28 668.57 584.42 L 750 750 Z" fill="#123449" opacity="0.65"/>
+<path d="M -30 750 L -30 620.43 Q 0 620.43 51.43 614.33 Q 102.86 608.24 154.29 611.13 Q 205.71 614.03 257.14 629.49 Q 308.57 644.94 360 631.3 Q 411.43 617.67 462.86 628.38 Q 514.29 639.09 565.71 648.56 Q 617.14 658.03 668.57 661.91 L 750 750 Z" fill="#091B2A" opacity="0.85"/>
+<path d="M -72 614.82 C 158.4 557.57, 446.4 672.06, 792 591.92" stroke="#B9D8E2" stroke-width="1.74" stroke-linecap="round" fill="none" opacity="0.25"/><path d="M -72 638.2 C 158.4 693.72, 446.4 582.68, 792 660.41" stroke="#B9D8E2" stroke-width="1.77" stroke-linecap="round" fill="none" opacity="0.2"/><path d="M -72 667.1 C 158.4 635.49, 446.4 698.72, 792 654.46" stroke="#B9D8E2" stroke-width="1.88" stroke-linecap="round" fill="none" opacity="0.39"/>
+<g transform="translate(360 331.2) scale(1.1612903225806452)" opacity="0.16" fill="none" stroke="#B9D8E2" stroke-width="9" stroke-linecap="round"><path d="M0 -74 a 20 20 0 1 0 0 40 a 20 20 0 1 0 0 -40 M0 -34 L0 66 M-30 -34 L30 -34 M0 66 C 20 66 44 50 56 14 M0 66 C -20 66 -44 50 -56 14 M56 14 l 14 -18 M56 14 l -20 -4 M-56 14 l -14 -18 M-56 14 l 20 -4"/></g>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="#000" opacity="0.16"/>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="none" stroke="url(#ring)" stroke-width="8.64"/>
+<text x="360" y="331.2" text-anchor="middle" dominant-baseline="central" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="158.4" font-weight="600" fill="#F6FAFF" letter-spacing="2">SF</text>
+</g>
+</svg>

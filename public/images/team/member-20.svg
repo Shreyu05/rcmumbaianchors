@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" width="720" height="720" role="img" aria-label="Portrait placeholder for Priya Menon"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#2E4059"/><stop offset="1" stop-color="#101A2A"/></linearGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#D3E0E4" stop-opacity="0.9"/><stop offset="1" stop-color="#F6D2A2" stop-opacity="0.9"/></linearGradient>
+<radialGradient id="halo" cx="0.5" cy="0.38" r="0.6"><stop offset="0" stop-color="#F6D2A2" stop-opacity="0.35"/><stop offset="1" stop-color="#F6D2A2" stop-opacity="0"/></radialGradient>
+<clipPath id="clip"><rect width="720" height="720"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="720" height="720" fill="url(#bg)"/>
+<circle cx="360" cy="244.8" r="374.40000000000003" fill="url(#halo)"/>
+<path d="M -30 750 L -30 527.91 Q 0 527.91 51.43 522.61 Q 102.86 517.31 154.29 525.95 Q 205.71 534.59 257.14 538.95 Q 308.57 543.31 360 556.23 Q 411.43 569.15 462.86 567.28 Q 514.29 565.42 565.71 578.3 Q 617.14 591.19 668.57 593.28 L 750 750 Z" fill="#1E2A3D" opacity="0.65"/>
+<path d="M -30 750 L -30 626.9 Q 0 626.9 51.43 615.32 Q 102.86 603.75 154.29 610.91 Q 205.71 618.08 257.14 628.55 Q 308.57 639.02 360 644.7 Q 411.43 650.38 462.86 643.18 Q 514.29 635.98 565.71 647.18 Q 617.14 658.38 668.57 661.79 L 750 750 Z" fill="#0C1421" opacity="0.85"/>
+<path d="M -72 622.89 C 158.4 571.59, 446.4 674.2, 792 602.37" stroke="#D3E0E4" stroke-width="2.21" stroke-linecap="round" fill="none" opacity="0.16"/><path d="M -72 645.64 C 158.4 596.59, 446.4 694.69, 792 626.02" stroke="#D3E0E4" stroke-width="3.18" stroke-linecap="round" fill="none" opacity="0.39"/><path d="M -72 673.55 C 158.4 729.2, 446.4 617.9, 792 695.81" stroke="#D3E0E4" stroke-width="2.81" stroke-linecap="round" fill="none" opacity="0.37"/>
+<g transform="translate(360 331.2) scale(1.1612903225806452)" opacity="0.16" fill="none" stroke="#D3E0E4" stroke-width="9" stroke-linecap="round"><path d="M0 -74 a 20 20 0 1 0 0 40 a 20 20 0 1 0 0 -40 M0 -34 L0 66 M-30 -34 L30 -34 M0 66 C 20 66 44 50 56 14 M0 66 C -20 66 -44 50 -56 14 M56 14 l 14 -18 M56 14 l -20 -4 M-56 14 l -14 -18 M-56 14 l 20 -4"/></g>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="#000" opacity="0.16"/>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="none" stroke="url(#ring)" stroke-width="8.64"/>
+<text x="360" y="331.2" text-anchor="middle" dominant-baseline="central" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="158.4" font-weight="600" fill="#F6FAFF" letter-spacing="2">PM</text>
+</g>
+</svg>

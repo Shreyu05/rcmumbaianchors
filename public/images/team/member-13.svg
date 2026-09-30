@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" width="720" height="720" role="img" aria-label="Portrait placeholder for Aditya Kamat"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#1E3763"/><stop offset="1" stop-color="#0B1730"/></linearGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C6DCEC" stop-opacity="0.9"/><stop offset="1" stop-color="#F0CD9A" stop-opacity="0.9"/></linearGradient>
+<radialGradient id="halo" cx="0.5" cy="0.38" r="0.6"><stop offset="0" stop-color="#F0CD9A" stop-opacity="0.35"/><stop offset="1" stop-color="#F0CD9A" stop-opacity="0"/></radialGradient>
+<clipPath id="clip"><rect width="720" height="720"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="720" height="720" fill="url(#bg)"/>
+<circle cx="360" cy="244.8" r="374.40000000000003" fill="url(#halo)"/>
+<path d="M -30 750 L -30 537.58 Q 0 537.58 51.43 530.21 Q 102.86 522.85 154.29 525.68 Q 205.71 528.5 257.14 538.53 Q 308.57 548.57 360 552.08 Q 411.43 555.59 462.86 558.17 Q 514.29 560.75 565.71 571.79 Q 617.14 582.84 668.57 586.97 L 750 750 Z" fill="#182A50" opacity="0.65"/>
+<path d="M -30 750 L -30 630.26 Q 0 630.26 51.43 617.31 Q 102.86 604.36 154.29 610.58 Q 205.71 616.81 257.14 630.73 Q 308.57 644.65 360 637.16 Q 411.43 629.66 462.86 638.43 Q 514.29 647.19 565.71 654.4 Q 617.14 661.62 668.57 660.87 L 750 750 Z" fill="#0A1430" opacity="0.85"/>
+<path d="M -72 618.46 C 158.4 651.05, 446.4 585.87, 792 631.5" stroke="#C6DCEC" stroke-width="1.44" stroke-linecap="round" fill="none" opacity="0.3"/><path d="M -72 640.93 C 158.4 589.29, 446.4 692.58, 792 620.27" stroke="#C6DCEC" stroke-width="3.65" stroke-linecap="round" fill="none" opacity="0.3"/><path d="M -72 664.72 C 158.4 695.36, 446.4 634.07, 792 676.98" stroke="#C6DCEC" stroke-width="1.14" stroke-linecap="round" fill="none" opacity="0.3"/>
+<g transform="translate(360 331.2) scale(1.1612903225806452)" opacity="0.16" fill="none" stroke="#C6DCEC" stroke-width="9" stroke-linecap="round"><path d="M0 -74 a 20 20 0 1 0 0 40 a 20 20 0 1 0 0 -40 M0 -34 L0 66 M-30 -34 L30 -34 M0 66 C 20 66 44 50 56 14 M0 66 C -20 66 -44 50 -56 14 M56 14 l 14 -18 M56 14 l -20 -4 M-56 14 l -14 -18 M-56 14 l 20 -4"/></g>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="#000" opacity="0.16"/>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="none" stroke="url(#ring)" stroke-width="8.64"/>
+<text x="360" y="331.2" text-anchor="middle" dominant-baseline="central" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="158.4" font-weight="600" fill="#F6FAFF" letter-spacing="2">AK</text>
+</g>
+</svg>

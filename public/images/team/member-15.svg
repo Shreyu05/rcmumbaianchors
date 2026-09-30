@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" width="720" height="720" role="img" aria-label="Portrait placeholder for Yash Thakur"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#2E4059"/><stop offset="1" stop-color="#101A2A"/></linearGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#D3E0E4" stop-opacity="0.9"/><stop offset="1" stop-color="#F6D2A2" stop-opacity="0.9"/></linearGradient>
+<radialGradient id="halo" cx="0.5" cy="0.38" r="0.6"><stop offset="0" stop-color="#F6D2A2" stop-opacity="0.35"/><stop offset="1" stop-color="#F6D2A2" stop-opacity="0"/></radialGradient>
+<clipPath id="clip"><rect width="720" height="720"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="720" height="720" fill="url(#bg)"/>
+<circle cx="360" cy="244.8" r="374.40000000000003" fill="url(#halo)"/>
+<path d="M -30 750 L -30 526.62 Q 0 526.62 51.43 519.87 Q 102.86 513.11 154.29 520.64 Q 205.71 528.18 257.14 535.72 Q 308.57 543.27 360 540.66 Q 411.43 538.05 462.86 538.3 Q 514.29 538.54 565.71 563.79 Q 617.14 589.04 668.57 591.71 L 750 750 Z" fill="#1E2A3D" opacity="0.65"/>
+<path d="M -30 750 L -30 617.76 Q 0 617.76 51.43 610.94 Q 102.86 604.11 154.29 609.07 Q 205.71 614.03 257.14 628.78 Q 308.57 643.52 360 634.53 Q 411.43 625.54 462.86 636.41 Q 514.29 647.28 565.71 655.13 Q 617.14 662.98 668.57 662.53 L 750 750 Z" fill="#0C1421" opacity="0.85"/>
+<path d="M -72 614.48 C 158.4 617.12, 446.4 611.83, 792 615.54" stroke="#D3E0E4" stroke-width="3.36" stroke-linecap="round" fill="none" opacity="0.28"/><path d="M -72 647.57 C 158.4 629.53, 446.4 665.6, 792 640.35" stroke="#D3E0E4" stroke-width="4.03" stroke-linecap="round" fill="none" opacity="0.13"/><path d="M -72 669.99 C 158.4 643.35, 446.4 696.64, 792 659.34" stroke="#D3E0E4" stroke-width="2.39" stroke-linecap="round" fill="none" opacity="0.25"/>
+<g transform="translate(360 331.2) scale(1.1612903225806452)" opacity="0.16" fill="none" stroke="#D3E0E4" stroke-width="9" stroke-linecap="round"><path d="M0 -74 a 20 20 0 1 0 0 40 a 20 20 0 1 0 0 -40 M0 -34 L0 66 M-30 -34 L30 -34 M0 66 C 20 66 44 50 56 14 M0 66 C -20 66 -44 50 -56 14 M56 14 l 14 -18 M56 14 l -20 -4 M-56 14 l -14 -18 M-56 14 l 20 -4"/></g>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="#000" opacity="0.16"/>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="none" stroke="url(#ring)" stroke-width="8.64"/>
+<text x="360" y="331.2" text-anchor="middle" dominant-baseline="central" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="158.4" font-weight="600" fill="#F6FAFF" letter-spacing="2">YT</text>
+</g>
+</svg>

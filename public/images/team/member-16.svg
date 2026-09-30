@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" width="720" height="720" role="img" aria-label="Portrait placeholder for Tanvi Sawant"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#123A5C"/><stop offset="1" stop-color="#0A1A2E"/></linearGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#BFDCE8" stop-opacity="0.9"/><stop offset="1" stop-color="#EFC98F" stop-opacity="0.9"/></linearGradient>
+<radialGradient id="halo" cx="0.5" cy="0.38" r="0.6"><stop offset="0" stop-color="#EFC98F" stop-opacity="0.35"/><stop offset="1" stop-color="#EFC98F" stop-opacity="0"/></radialGradient>
+<clipPath id="clip"><rect width="720" height="720"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="720" height="720" fill="url(#bg)"/>
+<circle cx="360" cy="244.8" r="374.40000000000003" fill="url(#halo)"/>
+<path d="M -30 750 L -30 527.22 Q 0 527.22 51.43 519.41 Q 102.86 511.61 154.29 519.89 Q 205.71 528.18 257.14 536.46 Q 308.57 544.75 360 552.49 Q 411.43 560.23 462.86 565.55 Q 514.29 570.88 565.71 580.13 Q 617.14 589.39 668.57 592.42 L 750 750 Z" fill="#123049" opacity="0.65"/>
+<path d="M -30 750 L -30 613.29 Q 0 613.29 51.43 609 Q 102.86 604.71 154.29 609.79 Q 205.71 614.87 257.14 624.73 Q 308.57 634.59 360 626.12 Q 411.43 617.65 462.86 632 Q 514.29 646.34 565.71 652.75 Q 617.14 659.15 668.57 662.74 L 750 750 Z" fill="#0A1E33" opacity="0.85"/>
+<path d="M -72 618.23 C 158.4 614.81, 446.4 621.64, 792 616.86" stroke="#BFDCE8" stroke-width="2.78" stroke-linecap="round" fill="none" opacity="0.14"/><path d="M -72 643.8 C 158.4 638.81, 446.4 648.78, 792 641.8" stroke="#BFDCE8" stroke-width="3.55" stroke-linecap="round" fill="none" opacity="0.2"/><path d="M -72 672.19 C 158.4 723.25, 446.4 621.14, 792 692.62" stroke="#BFDCE8" stroke-width="1.65" stroke-linecap="round" fill="none" opacity="0.39"/>
+<g transform="translate(360 331.2) scale(1.1612903225806452)" opacity="0.16" fill="none" stroke="#BFDCE8" stroke-width="9" stroke-linecap="round"><path d="M0 -74 a 20 20 0 1 0 0 40 a 20 20 0 1 0 0 -40 M0 -34 L0 66 M-30 -34 L30 -34 M0 66 C 20 66 44 50 56 14 M0 66 C -20 66 -44 50 -56 14 M56 14 l 14 -18 M56 14 l -20 -4 M-56 14 l -14 -18 M-56 14 l 20 -4"/></g>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="#000" opacity="0.16"/>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="none" stroke="url(#ring)" stroke-width="8.64"/>
+<text x="360" y="331.2" text-anchor="middle" dominant-baseline="central" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="158.4" font-weight="600" fill="#F6FAFF" letter-spacing="2">TS</text>
+</g>
+</svg>

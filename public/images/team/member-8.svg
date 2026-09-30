@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" width="720" height="720" role="img" aria-label="Portrait placeholder for Meera Joshi"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#1E3763"/><stop offset="1" stop-color="#0B1730"/></linearGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C6DCEC" stop-opacity="0.9"/><stop offset="1" stop-color="#F0CD9A" stop-opacity="0.9"/></linearGradient>
+<radialGradient id="halo" cx="0.5" cy="0.38" r="0.6"><stop offset="0" stop-color="#F0CD9A" stop-opacity="0.35"/><stop offset="1" stop-color="#F0CD9A" stop-opacity="0"/></radialGradient>
+<clipPath id="clip"><rect width="720" height="720"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="720" height="720" fill="url(#bg)"/>
+<circle cx="360" cy="244.8" r="374.40000000000003" fill="url(#halo)"/>
+<path d="M -30 750 L -30 526.81 Q 0 526.81 51.43 525.07 Q 102.86 523.34 154.29 538.39 Q 205.71 553.43 257.14 566.41 Q 308.57 579.38 360 556.45 Q 411.43 533.53 462.86 539.77 Q 514.29 546.01 565.71 567.11 Q 617.14 588.21 668.57 590.96 L 750 750 Z" fill="#182A50" opacity="0.65"/>
+<path d="M -30 750 L -30 612.01 Q 0 612.01 51.43 607.23 Q 102.86 602.45 154.29 619.63 Q 205.71 636.81 257.14 645.3 Q 308.57 653.8 360 652.1 Q 411.43 650.4 462.86 648.88 Q 514.29 647.37 565.71 650.51 Q 617.14 653.66 668.57 659.95 L 750 750 Z" fill="#0A1430" opacity="0.85"/>
+<path d="M -72 621.45 C 158.4 656.27, 446.4 586.63, 792 635.38" stroke="#C6DCEC" stroke-width="1.01" stroke-linecap="round" fill="none" opacity="0.14"/><path d="M -72 637.89 C 158.4 581.39, 446.4 694.39, 792 615.29" stroke="#C6DCEC" stroke-width="3.25" stroke-linecap="round" fill="none" opacity="0.24"/><path d="M -72 668 C 158.4 639.31, 446.4 696.69, 792 656.53" stroke="#C6DCEC" stroke-width="2.6" stroke-linecap="round" fill="none" opacity="0.18"/>
+<g transform="translate(360 331.2) scale(1.1612903225806452)" opacity="0.16" fill="none" stroke="#C6DCEC" stroke-width="9" stroke-linecap="round"><path d="M0 -74 a 20 20 0 1 0 0 40 a 20 20 0 1 0 0 -40 M0 -34 L0 66 M-30 -34 L30 -34 M0 66 C 20 66 44 50 56 14 M0 66 C -20 66 -44 50 -56 14 M56 14 l 14 -18 M56 14 l -20 -4 M-56 14 l -14 -18 M-56 14 l 20 -4"/></g>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="#000" opacity="0.16"/>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="none" stroke="url(#ring)" stroke-width="8.64"/>
+<text x="360" y="331.2" text-anchor="middle" dominant-baseline="central" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="158.4" font-weight="600" fill="#F6FAFF" letter-spacing="2">MJ</text>
+</g>
+</svg>

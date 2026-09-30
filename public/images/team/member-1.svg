@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" width="720" height="720" role="img" aria-label="Portrait placeholder for Yakshesh Deepak Jadav"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#123A5C"/><stop offset="1" stop-color="#0A1A2E"/></linearGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#BFDCE8" stop-opacity="0.9"/><stop offset="1" stop-color="#EFC98F" stop-opacity="0.9"/></linearGradient>
+<radialGradient id="halo" cx="0.5" cy="0.38" r="0.6"><stop offset="0" stop-color="#EFC98F" stop-opacity="0.35"/><stop offset="1" stop-color="#EFC98F" stop-opacity="0"/></radialGradient>
+<clipPath id="clip"><rect width="720" height="720"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="720" height="720" fill="url(#bg)"/>
+<circle cx="360" cy="244.8" r="374.40000000000003" fill="url(#halo)"/>
+<path d="M -30 750 L -30 526.66 Q 0 526.66 51.43 520.22 Q 102.86 513.78 154.29 520.97 Q 205.71 528.16 257.14 553 Q 308.57 577.84 360 574.67 Q 411.43 571.51 462.86 571.09 Q 514.29 570.67 565.71 572.48 Q 617.14 574.29 668.57 580.87 L 750 750 Z" fill="#123049" opacity="0.65"/>
+<path d="M -30 750 L -30 622.25 Q 0 622.25 51.43 616.21 Q 102.86 610.18 154.29 613.43 Q 205.71 616.68 257.14 629.68 Q 308.57 642.68 360 638.15 Q 411.43 633.62 462.86 640.49 Q 514.29 647.37 565.71 652.8 Q 617.14 658.24 668.57 661.87 L 750 750 Z" fill="#0A1E33" opacity="0.85"/>
+<path d="M -72 616.21 C 158.4 568.43, 446.4 663.99, 792 597.09" stroke="#BFDCE8" stroke-width="4.11" stroke-linecap="round" fill="none" opacity="0.27"/><path d="M -72 641.72 C 158.4 678.36, 446.4 605.09, 792 656.38" stroke="#BFDCE8" stroke-width="1.78" stroke-linecap="round" fill="none" opacity="0.27"/><path d="M -72 662.4 C 158.4 665.81, 446.4 658.98, 792 663.77" stroke="#BFDCE8" stroke-width="1.87" stroke-linecap="round" fill="none" opacity="0.17"/>
+<g transform="translate(360 331.2) scale(1.1612903225806452)" opacity="0.16" fill="none" stroke="#BFDCE8" stroke-width="9" stroke-linecap="round"><path d="M0 -74 a 20 20 0 1 0 0 40 a 20 20 0 1 0 0 -40 M0 -34 L0 66 M-30 -34 L30 -34 M0 66 C 20 66 44 50 56 14 M0 66 C -20 66 -44 50 -56 14 M56 14 l 14 -18 M56 14 l -20 -4 M-56 14 l -14 -18 M-56 14 l 20 -4"/></g>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="#000" opacity="0.16"/>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="none" stroke="url(#ring)" stroke-width="8.64"/>
+<text x="360" y="331.2" text-anchor="middle" dominant-baseline="central" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="158.4" font-weight="600" fill="#F6FAFF" letter-spacing="2">YD</text>
+</g>
+</svg>

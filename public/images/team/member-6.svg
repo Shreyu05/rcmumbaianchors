@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" width="720" height="720" role="img" aria-label="Portrait placeholder for Ishita Rao"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#123A5C"/><stop offset="1" stop-color="#0A1A2E"/></linearGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#BFDCE8" stop-opacity="0.9"/><stop offset="1" stop-color="#EFC98F" stop-opacity="0.9"/></linearGradient>
+<radialGradient id="halo" cx="0.5" cy="0.38" r="0.6"><stop offset="0" stop-color="#EFC98F" stop-opacity="0.35"/><stop offset="1" stop-color="#EFC98F" stop-opacity="0"/></radialGradient>
+<clipPath id="clip"><rect width="720" height="720"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="720" height="720" fill="url(#bg)"/>
+<circle cx="360" cy="244.8" r="374.40000000000003" fill="url(#halo)"/>
+<path d="M -30 750 L -30 525.86 Q 0 525.86 51.43 519.88 Q 102.86 513.9 154.29 527.1 Q 205.71 540.3 257.14 540.74 Q 308.57 541.17 360 550 Q 411.43 558.83 462.86 550.05 Q 514.29 541.28 565.71 558.29 Q 617.14 575.3 668.57 577.06 L 750 750 Z" fill="#123049" opacity="0.65"/>
+<path d="M -30 750 L -30 631.76 Q 0 631.76 51.43 620.73 Q 102.86 609.7 154.29 612.45 Q 205.71 615.21 257.14 627.89 Q 308.57 640.57 360 630.43 Q 411.43 620.28 462.86 633.58 Q 514.29 646.87 565.71 654.75 Q 617.14 662.62 668.57 663.88 L 750 750 Z" fill="#0A1E33" opacity="0.85"/>
+<path d="M -72 617.71 C 158.4 615.53, 446.4 619.88, 792 616.83" stroke="#BFDCE8" stroke-width="2.8" stroke-linecap="round" fill="none" opacity="0.23"/><path d="M -72 649.3 C 158.4 702.61, 446.4 595.98, 792 670.63" stroke="#BFDCE8" stroke-width="3.48" stroke-linecap="round" fill="none" opacity="0.18"/><path d="M -72 670.21 C 158.4 667.37, 446.4 673.05, 792 669.07" stroke="#BFDCE8" stroke-width="1.58" stroke-linecap="round" fill="none" opacity="0.22"/>
+<g transform="translate(360 331.2) scale(1.1612903225806452)" opacity="0.16" fill="none" stroke="#BFDCE8" stroke-width="9" stroke-linecap="round"><path d="M0 -74 a 20 20 0 1 0 0 40 a 20 20 0 1 0 0 -40 M0 -34 L0 66 M-30 -34 L30 -34 M0 66 C 20 66 44 50 56 14 M0 66 C -20 66 -44 50 -56 14 M56 14 l 14 -18 M56 14 l -20 -4 M-56 14 l -14 -18 M-56 14 l 20 -4"/></g>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="#000" opacity="0.16"/>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="none" stroke="url(#ring)" stroke-width="8.64"/>
+<text x="360" y="331.2" text-anchor="middle" dominant-baseline="central" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="158.4" font-weight="600" fill="#F6FAFF" letter-spacing="2">IR</text>
+</g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" width="720" height="720" role="img" aria-label="Portrait placeholder for President Five"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#1B4A6E"/><stop offset="1" stop-color="#0C1F33"/></linearGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#CADFE9" stop-opacity="0.9"/><stop offset="1" stop-color="#F3D3A0" stop-opacity="0.9"/></linearGradient>
+<radialGradient id="halo" cx="0.5" cy="0.38" r="0.6"><stop offset="0" stop-color="#F3D3A0" stop-opacity="0.35"/><stop offset="1" stop-color="#F3D3A0" stop-opacity="0"/></radialGradient>
+<clipPath id="clip"><rect width="720" height="720"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="720" height="720" fill="url(#bg)"/>
+<circle cx="360" cy="244.8" r="374.40000000000003" fill="url(#halo)"/>
+<path d="M -30 750 L -30 525.71 Q 0 525.71 51.43 520.28 Q 102.86 514.84 154.29 521.56 Q 205.71 528.28 257.14 534.35 Q 308.57 540.42 360 554.99 Q 411.43 569.56 462.86 568.05 Q 514.29 566.53 565.71 577.3 Q 617.14 588.06 668.57 591.75 L 750 750 Z" fill="#143A57" opacity="0.65"/>
+<path d="M -30 750 L -30 612.71 Q 0 612.71 51.43 607.73 Q 102.86 602.75 154.29 613.61 Q 205.71 624.48 257.14 623.92 Q 308.57 623.36 360 632.34 Q 411.43 641.32 462.86 642.63 Q 514.29 643.95 565.71 648.51 Q 617.14 653.07 668.57 658.8 L 750 750 Z" fill="#0A1D30" opacity="0.85"/>
+<path d="M -72 618.32 C 158.4 595.99, 446.4 640.66, 792 609.39" stroke="#CADFE9" stroke-width="1.16" stroke-linecap="round" fill="none" opacity="0.14"/><path d="M -72 647.92 C 158.4 593.37, 446.4 702.46, 792 626.1" stroke="#CADFE9" stroke-width="3.63" stroke-linecap="round" fill="none" opacity="0.38"/><path d="M -72 663.22 C 158.4 708.03, 446.4 618.4, 792 681.14" stroke="#CADFE9" stroke-width="1.58" stroke-linecap="round" fill="none" opacity="0.14"/>
+<g transform="translate(360 331.2) scale(1.1612903225806452)" opacity="0.16" fill="none" stroke="#CADFE9" stroke-width="9" stroke-linecap="round"><path d="M0 -74 a 20 20 0 1 0 0 40 a 20 20 0 1 0 0 -40 M0 -34 L0 66 M-30 -34 L30 -34 M0 66 C 20 66 44 50 56 14 M0 66 C -20 66 -44 50 -56 14 M56 14 l 14 -18 M56 14 l -20 -4 M-56 14 l -14 -18 M-56 14 l 20 -4"/></g>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="#000" opacity="0.16"/>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="none" stroke="url(#ring)" stroke-width="8.64"/>
+<text x="360" y="331.2" text-anchor="middle" dominant-baseline="central" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="158.4" font-weight="600" fill="#F6FAFF" letter-spacing="2">PF</text>
+</g>
+</svg>

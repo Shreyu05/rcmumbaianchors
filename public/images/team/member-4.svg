@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" width="720" height="720" role="img" aria-label="Portrait placeholder for Sanya Kulkarni"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#183C55"/><stop offset="1" stop-color="#0B1B2C"/></linearGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B9D8E2" stop-opacity="0.9"/><stop offset="1" stop-color="#EDC085" stop-opacity="0.9"/></linearGradient>
+<radialGradient id="halo" cx="0.5" cy="0.38" r="0.6"><stop offset="0" stop-color="#EDC085" stop-opacity="0.35"/><stop offset="1" stop-color="#EDC085" stop-opacity="0"/></radialGradient>
+<clipPath id="clip"><rect width="720" height="720"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="720" height="720" fill="url(#bg)"/>
+<circle cx="360" cy="244.8" r="374.40000000000003" fill="url(#halo)"/>
+<path d="M -30 750 L -30 529.63 Q 0 529.63 51.43 521.29 Q 102.86 512.95 154.29 520.64 Q 205.71 528.34 257.14 549.46 Q 308.57 570.59 360 552.41 Q 411.43 534.23 462.86 535.52 Q 514.29 536.82 565.71 563.96 Q 617.14 591.1 668.57 593.2 L 750 750 Z" fill="#123449" opacity="0.65"/>
+<path d="M -30 750 L -30 613.55 Q 0 613.55 51.43 611.23 Q 102.86 608.91 154.29 611.92 Q 205.71 614.93 257.14 622 Q 308.57 629.07 360 638.27 Q 411.43 647.47 462.86 636.58 Q 514.29 625.7 565.71 641.59 Q 617.14 657.48 668.57 654.37 L 750 750 Z" fill="#091B2A" opacity="0.85"/>
+<path d="M -72 613.77 C 158.4 653.7, 446.4 573.85, 792 629.74" stroke="#B9D8E2" stroke-width="1.36" stroke-linecap="round" fill="none" opacity="0.34"/><path d="M -72 641.64 C 158.4 634.64, 446.4 648.64, 792 638.84" stroke="#B9D8E2" stroke-width="2.44" stroke-linecap="round" fill="none" opacity="0.18"/><path d="M -72 661.62 C 158.4 666.45, 446.4 656.79, 792 663.55" stroke="#B9D8E2" stroke-width="2.26" stroke-linecap="round" fill="none" opacity="0.3"/>
+<g transform="translate(360 331.2) scale(1.1612903225806452)" opacity="0.16" fill="none" stroke="#B9D8E2" stroke-width="9" stroke-linecap="round"><path d="M0 -74 a 20 20 0 1 0 0 40 a 20 20 0 1 0 0 -40 M0 -34 L0 66 M-30 -34 L30 -34 M0 66 C 20 66 44 50 56 14 M0 66 C -20 66 -44 50 -56 14 M56 14 l 14 -18 M56 14 l -20 -4 M-56 14 l -14 -18 M-56 14 l 20 -4"/></g>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="#000" opacity="0.16"/>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="none" stroke="url(#ring)" stroke-width="8.64"/>
+<text x="360" y="331.2" text-anchor="middle" dominant-baseline="central" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="158.4" font-weight="600" fill="#F6FAFF" letter-spacing="2">SK</text>
+</g>
+</svg>

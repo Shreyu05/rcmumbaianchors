@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" width="720" height="720" role="img" aria-label="Portrait placeholder for Diya Sharma"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#2E4059"/><stop offset="1" stop-color="#101A2A"/></linearGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#D3E0E4" stop-opacity="0.9"/><stop offset="1" stop-color="#F6D2A2" stop-opacity="0.9"/></linearGradient>
+<radialGradient id="halo" cx="0.5" cy="0.38" r="0.6"><stop offset="0" stop-color="#F6D2A2" stop-opacity="0.35"/><stop offset="1" stop-color="#F6D2A2" stop-opacity="0"/></radialGradient>
+<clipPath id="clip"><rect width="720" height="720"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="720" height="720" fill="url(#bg)"/>
+<circle cx="360" cy="244.8" r="374.40000000000003" fill="url(#halo)"/>
+<path d="M -30 750 L -30 553.66 Q 0 553.66 51.43 539.12 Q 102.86 524.58 154.29 535.06 Q 205.71 545.54 257.14 557.34 Q 308.57 569.14 360 552.01 Q 411.43 534.88 462.86 551.72 Q 514.29 568.56 565.71 578.66 Q 617.14 588.76 668.57 589.67 L 750 750 Z" fill="#1E2A3D" opacity="0.65"/>
+<path d="M -30 750 L -30 625.03 Q 0 625.03 51.43 615.13 Q 102.86 605.23 154.29 612.74 Q 205.71 620.24 257.14 626.17 Q 308.57 632.11 360 636.91 Q 411.43 641.71 462.86 636.9 Q 514.29 632.08 565.71 647.09 Q 617.14 662.11 668.57 664.09 L 750 750 Z" fill="#0C1421" opacity="0.85"/>
+<path d="M -72 614.21 C 158.4 641.33, 446.4 587.08, 792 625.06" stroke="#D3E0E4" stroke-width="3.91" stroke-linecap="round" fill="none" opacity="0.32"/><path d="M -72 641.53 C 158.4 688.92, 446.4 594.15, 792 660.49" stroke="#D3E0E4" stroke-width="2.46" stroke-linecap="round" fill="none" opacity="0.17"/><path d="M -72 666.39 C 158.4 691.58, 446.4 641.21, 792 676.46" stroke="#D3E0E4" stroke-width="4.06" stroke-linecap="round" fill="none" opacity="0.15"/>
+<g transform="translate(360 331.2) scale(1.1612903225806452)" opacity="0.16" fill="none" stroke="#D3E0E4" stroke-width="9" stroke-linecap="round"><path d="M0 -74 a 20 20 0 1 0 0 40 a 20 20 0 1 0 0 -40 M0 -34 L0 66 M-30 -34 L30 -34 M0 66 C 20 66 44 50 56 14 M0 66 C -20 66 -44 50 -56 14 M56 14 l 14 -18 M56 14 l -20 -4 M-56 14 l -14 -18 M-56 14 l 20 -4"/></g>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="#000" opacity="0.16"/>
+<circle cx="360" cy="331.2" r="201.60000000000002" fill="none" stroke="url(#ring)" stroke-width="8.64"/>
+<text x="360" y="331.2" text-anchor="middle" dominant-baseline="central" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="158.4" font-weight="600" fill="#F6FAFF" letter-spacing="2">DS</text>
+</g>
+</svg>
