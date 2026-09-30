@@ -51,7 +51,7 @@ export const navLinks = [
   { label: "Projects", href: "#projects" },
   { label: "Gallery", href: "#gallery" },
   { label: "Achievements", href: "#achievements" },
-  { label: "Help Holders", href: "#help-holders" },
+  { label: "Helm Holders", href: "#help-holders" },
   { label: "Join Us", href: "#join" },
   { label: "Contact", href: "#contact" },
 ];
@@ -670,7 +670,7 @@ export const footer = {
     { label: "Projects", href: "#projects" },
     { label: "Gallery", href: "#gallery" },
     { label: "Achievements", href: "#achievements" },
-    { label: "Help Holders", href: "#help-holders" },
+    { label: "Helm Holders", href: "#help-holders" },
   ],
   legal: `© ${new Date().getFullYear()} Rotaract Club of Mumbai Anchors. All rights reserved.`,
   credit: "Service above self.",

@@ -17,7 +17,7 @@ import { Particles } from "./motifs/Particles";
 import { SectionHeading } from "./ui/SectionHeading";
 
 /**
- * "The Help Holders" — a hall of leaders for the club's past presidents.
+ * "The Helm Holders" — a hall of leaders for the club's past presidents.
  *
  * The portraits are strung on a glowing gold chain that fills top-to-bottom as
  * the section scrolls past, and each president is lit in turn — one after
@@ -166,7 +166,7 @@ export function HelpHolders() {
             <div key={copy} className="flex shrink-0 items-center" aria-hidden={copy === 1}>
               {[
                 motto.devanagari,
-                "The Help Holders",
+                "The Helm Holders",
                 motto.english,
                 `District ${site.district.replace(/^District /, "")}`,
                 "Service Above Self",
@@ -190,7 +190,7 @@ export function HelpHolders() {
 
       <div className="relative mx-auto max-w-7xl px-5 sm:px-8">
         <SectionHeading
-          eyebrow="The Help Holders"
+          eyebrow="The Helm Holders"
           title="Nine hands that held the club, year after year."
           lead="Every term begins with a handover and ends with one. These are the presidents who carried Mumbai Anchors before us — the help holders whose steadiness the club still stands on."
           tone="dark"
